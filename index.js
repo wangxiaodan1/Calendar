@@ -1,2 +1,1 @@
-import Calendar from './src/';
-export default Calendar;
+exports.redux = require('./lib/index');
