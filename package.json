@@ -1,0 +1,23 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "description": "react-calendar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangxiaodan1/Calendar.git"
+  },
+  "keywords": [
+    "react",
+    "calendar"
+  ],
+  "bugs": {
+    "url": "https://github.com/wangxiaodan1/Calendar/issues"
+  },
+  "homepage": "https://github.com/wangxiaodan1/Calendar#readme"
+}
