@@ -1,0 +1,127 @@
+@import './_palette.css';
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: "Helvetica";
+  height: 100%;
+}
+
+.calendarHeader {
+  border-bottom: 1px solid var(--Colorbb);
+  /*height: 30vw;*/
+  /*border: 1px solid red;*/
+}
+.headerTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 5vw;
+  margin: 3vw 0 1vw 4vw;
+}
+
+.iconStyle {
+  display: flex;
+  flex-direction: row;
+  margin-right: 4vw;
+}
+.iconLeft {
+  cursor: pointer;
+  margin-right: 2vw;
+  width: 6vw;
+  background: url('../images/left.png') no-repeat;
+  background-size: 6vw;
+}
+
+.iconLeft:active {
+  background: url('../images/activeLeft.png') no-repeat;
+  background-size: 6vw;
+}
+
+.iconRight:active {
+  background: url('../images/activeRight.png') no-repeat;
+  background-size: 6vw;
+}
+
+.iconRight {
+  cursor: pointer;
+  width: 6vw;
+  background: url('../images/rigth.png') no-repeat;
+  background-size: 6vw;
+}
+
+.cBodyHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 3.5vw;
+  color: var(--color94);
+  margin-bottom: 1vw;
+}
+
+.cBodyHeader > span {
+  /*margin-left: 0.5vw;*/
+  display: block;
+  text-align: center;
+  width: 10vw;
+  height: 10vw;
+  line-height: 10vw;
+  font-family: '华文楷体';
+}
+
+.calendarBody {
+  /*border: 1px solid blue;*/
+  padding: 0 1vh 1vh;
+  /*height: 75vw;*/
+  font-size: 4vw;
+}
+
+.cBodyHeader1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.cBodyHeader1 > span {
+  display: block;
+  text-align: center;
+  width: 10vw;
+  height: 10vw;
+  line-height: 10vw;
+  font-family: '华文楷体';
+}
+
+.dayStyles:active,.todayStyle:active,.onSelectDay{
+  background: #aee9ff;
+  color: #fff;
+  border-radius: 5vw;
+}
+
+.onSelectToDay {
+  background-image: linear-gradient(143deg, #a2ddf8, #60cdff );
+  color: #fff;
+  font-weight: 900;
+  border-radius: 5vw;
+}
+
+.disableDay {
+  color: var(--Colorbb);
+}
+
+.todayStyle {
+  font-weight: 900;
+}
+
+.disabledToday {
+  border: 2px solid red;
+  color: var(--Colorbb);
+  border-radius: 6vw;
+}
+
+.selectYearStyle {
+  background: none;
+  border: none;
+}

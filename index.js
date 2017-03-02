@@ -1,1 +1,1 @@
-exports.redux = require('./lib/index');
+exports.default = require('./lib/index');
