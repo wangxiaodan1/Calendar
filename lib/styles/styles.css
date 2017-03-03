@@ -1,4 +1,3 @@
-@import './_palette.css';
 
 .calendar {
   display: flex;
@@ -9,7 +8,7 @@
 }
 
 .calendarHeader {
-  border-bottom: 1px solid var(--Colorbb);
+  border-bottom: 1px solid #bbb;
   /*height: 30vw;*/
   /*border: 1px solid red;*/
 }
@@ -57,7 +56,7 @@
   justify-content: space-around;
   text-align: center;
   font-size: 3.5vw;
-  color: var(--color94);
+  color: #949494;
   margin-bottom: 1vw;
 }
 
@@ -108,7 +107,7 @@
 }
 
 .disableDay {
-  color: var(--Colorbb);
+  color: #bbb;
 }
 
 .todayStyle {
@@ -117,7 +116,7 @@
 
 .disabledToday {
   border: 2px solid red;
-  color: var(--Colorbb);
+  color: #bbb;
   border-radius: 6vw;
 }
 

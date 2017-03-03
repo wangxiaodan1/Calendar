@@ -7,7 +7,7 @@
   "plugins": [
     "add-module-exports",
     ["import", {
-      "libraryName": "antd-mobile",
+      "libraryName": "calendar",
     "libraryDirectory": "lib",
     "style": "css"}]
   ]

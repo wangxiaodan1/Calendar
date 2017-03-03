@@ -1,1 +1,3 @@
-exports.default = require('./lib/index');
+
+var root = require('./lib/index');
+module.exports = root;
